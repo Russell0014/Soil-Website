@@ -29,12 +29,7 @@ SOIL is a student-made website built with React. It's a place for users to learn
 Your `.env` file should look like this:
 
 ```md
-HOST=Your_Host_URL
-USER_NAME=Your_Username
-PASSWORD=Your_Password
-DB=Database_To_Connect_To
-DIALECT=mysql
-PORT=3306
+URI=MYSQL_URI
 ```
 
 ## Tests
