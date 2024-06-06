@@ -1,17 +1,16 @@
 const { Sequelize, DataTypes } = require("sequelize");
-const config = require("./config.js");
 const storeData = require("./store.json");
 const bcrypt = require("bcryptjs");
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 const db = {
   Op: Sequelize.Op,
 };
 
 // init db
-db.sequelize = new Sequelize(config.DB, config.USER, config.PASSWORD, {
-  host: config.HOST,
-  dialect: config.DIALECT,
-});
+db.sequelize = new Sequelize(process.env.URI);
 
 // init models
 db.users = require("./models/user.js")(db.sequelize, DataTypes);
@@ -22,7 +21,6 @@ db.cart_products = require("./models/cart_products.js")(
   DataTypes
 );
 db.review = require("./models/review.js")(db.sequelize, DataTypes);
-db.admin = require("./models/admin.js")(db.sequelize, DataTypes);
 
 // set up the relationships
 //
@@ -53,11 +51,6 @@ db.review.belongsTo(db.users, { foreignKey: "user_id", as: "User" });
 db.review.belongsTo(db.product, { foreignKey: "product_id" });
 db.product.hasMany(db.review, { foreignKey: "product_id" });
 
-// admin
-// 1:1 relationship, user has 1 user_id
-db.admin.hasOne(db.users, { foreignKey: "user_id" });
-// 0:1 relationship, user can have 0 or 1 admin
-db.users.belongsTo(db.admin, { foreignKey: "user_id" });
 
 db.sync = async () => {
   // Sync schema
