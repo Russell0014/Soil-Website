@@ -1,0 +1,410 @@
+{
+  "asparagus": {
+    "icon": "asparagus.jpeg",
+    "image": "asparagus.jpg",
+    "description": "Asparagus is a perennial vegetable known for its tender spears.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "15-20 cm deep",
+      "spacing": "30-45 cm apart in rows",
+      "temperature": "Cool weather crop, prefers temperatures between 15°C to 25°C",
+      "soil": "Well-drained, sandy loam soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, but not waterlogged",
+      "fertilizing": "Fertilize with balanced fertilizer before planting and again in early spring",
+      "pests": "Common pests include asparagus beetles and aphids",
+      "sunlight": "Full sun",
+      "harvesting": "Begin harvesting spears when they are 15-20 cm tall"
+    }
+  },
+  "beetroot": {
+    "icon": "beetroot.jpeg",
+    "image": "beetroot.jpg",
+    "description": "Beetroot, or beets, are root vegetables prized for their earthy flavor and vibrant color.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "1-2 cm deep",
+      "spacing": "8-10 cm apart in rows",
+      "temperature": "Cool weather crop, prefers temperatures between 10°C to 20°C",
+      "soil": "Loose, well-drained soil rich in organic matter",
+      "watering": "Keep soil consistently moist, but not waterlogged",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again 3-4 weeks later",
+      "pests": "Common pests include aphids, leaf miners, and flea beetles",
+      "sunlight": "Full sun to partial shade",
+      "harvesting": "Harvest when roots reach desired size, typically 4-7 cm in diameter"
+    }
+  },
+  "broccoli": {
+    "icon": "broccoli.jpeg",
+    "image": "broccoli.jpg",
+    "description": "Broccoli is a cool-season vegetable belonging to the cabbage family.",
+    "planting": {
+      "time": "Late summer to early autumn for main crop; late winter to early spring for early crop",
+      "depth": "1-2 cm deep",
+      "spacing": "45-60 cm apart in rows",
+      "temperature": "Prefers temperatures between 18°C to 23°C",
+      "soil": "Rich, well-drained soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, especially during dry periods",
+      "fertilizing": "Fertilize with nitrogen-rich fertilizer at planting and again when heads start to form",
+      "pests": "Common pests include aphids, cabbage worms, and caterpillars",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when heads are tight and dark green, before flowers open"
+    }
+  },
+  "cabbage": {
+    "icon": "cabbage.jpeg",
+    "image": "cabbage.jpg",
+    "description": "Cabbage is a cool-season vegetable with tightly packed leaves.",
+    "planting": {
+      "time": "Late summer to early autumn for main crop; late winter to early spring for early crop",
+      "depth": "1-2 cm deep",
+      "spacing": "30-45 cm apart in rows",
+      "temperature": "Prefers temperatures between 10°C to 20°C",
+      "soil": "Rich, well-drained soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, especially during dry periods",
+      "fertilizing": "Fertilize with nitrogen-rich fertilizer at planting and again when heads start to form",
+      "pests": "Common pests include cabbage worms, aphids, and caterpillars",
+      "sunlight": "Full sun to partial shade",
+      "harvesting": "Harvest when heads are firm and solid"
+    }
+  },
+  "capsicum": {
+    "icon": "capsicum.jpeg",
+    "image": "capsicum.jpg",
+    "description": "Capsicum, or bell peppers, are sweet, crunchy vegetables commonly used in cooking.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "0.5-1 cm deep",
+      "spacing": "45-60 cm apart in rows",
+      "temperature": "Prefers temperatures between 21°C to 29°C",
+      "soil": "Rich, well-drained soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, but not waterlogged",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when fruit begins to set",
+      "pests": "Common pests include aphids, flea beetles, and caterpillars",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when peppers reach desired size and color"
+    }
+  },
+  "carrot": {
+    "icon": "carrot.jpeg",
+    "image": "carrot.jpg",
+    "description": "Carrots are root vegetables known for their crunchy texture and sweet flavor.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "0.5-1 cm deep",
+      "spacing": "5-10 cm apart in rows",
+      "temperature": "Prefers temperatures between 15°C to 20°C",
+      "soil": "Loose, well-drained soil free of stones and clods",
+      "watering": "Keep soil consistently moist, especially during germination",
+      "fertilizing": "Fertilize with low nitrogen fertilizer at planting and again when roots are halfway grown",
+      "pests": "Common pests include carrot rust flies, aphids, and wireworms",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when roots reach desired size, typically 1-2 cm in diameter"
+    }
+  },
+  "cauliflower": {
+    "icon": "cauliflower.jpeg",
+    "image": "cauliflower.jpg",
+    "description": "Cauliflower is a cool-season vegetable with a compact head of undeveloped white flower buds.",
+    "planting": {
+      "time": "Late summer to early autumn for main crop; late winter to early spring for early crop",
+      "depth": "1-2 cm deep",
+      "spacing": "45-60 cm apart in rows",
+      "temperature": "Prefers temperatures between 18°C to 23°C",
+      "soil": "Rich, well-drained soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, especially during dry periods",
+      "fertilizing": "Fertilize with nitrogen-rich fertilizer at planting and again when heads start to form",
+      "pests": "Common pests include aphids, cabbage worms, and caterpillars",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when heads are tight and compact, before curds loosen"
+    }
+  },
+  "celery": {
+    "icon": "celery.jpeg",
+    "image": "celery.jpg",
+    "description": "Celery is a crunchy, low-calorie vegetable commonly used in salads and soups.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "0.5-1 cm deep",
+      "spacing": "15-20 cm apart in rows",
+      "temperature": "Prefers temperatures between 15°C to 21°C",
+      "soil": "Moist, fertile soil rich in organic matter",
+      "watering": "Keep soil consistently moist, but not waterlogged",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when plants are half-grown",
+      "pests": "Common pests include aphids, celery worms, and leaf miners",
+      "sunlight": "Partial shade",
+      "harvesting": "Harvest outer stalks when they reach desired size, typically 10-15 cm long"
+    }
+  },
+  "chili": {
+    "icon": "chili.jpeg",
+    "image": "chili.jpg",
+    "description": "Chili peppers are spicy fruits used to add heat to various dishes.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "0.5-1 cm deep",
+      "spacing": "45-60 cm apart in rows",
+      "temperature": "Prefers temperatures between 21°C to 29°C",
+      "soil": "Well-drained, fertile soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, but not waterlogged",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when flowering begins",
+      "pests": "Common pests include aphids, flea beetles, and caterpillars",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when peppers reach desired size and color"
+    }
+  },
+  "cucumber": {
+    "icon": "cucumber.jpeg",
+    "image": "cucumber.jpg",
+    "description": "Cucumbers are refreshing, mild-flavored vegetables commonly eaten fresh or pickled.",
+    "planting": {
+      "time": "Late spring to early summer",
+      "depth": "1-2 cm deep",
+      "spacing": "45-60 cm apart in rows",
+      "temperature": "Prefers temperatures between 21°C to 32°C",
+      "soil": "Rich, well-drained soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, especially during flowering and fruiting",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when vines begin to run",
+      "pests": "Common pests include cucumber beetles, aphids, and spider mites",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when cucumbers reach desired size, typically 15-20 cm long"
+    }
+  },
+  "eggplant": {
+    "icon": "eggplant.jpeg",
+    "image": "eggplant.jpg",
+    "description": "Eggplant, or aubergine, is a versatile vegetable known for its glossy, purple skin.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "0.5-1 cm deep",
+      "spacing": "45-60 cm apart in rows",
+      "temperature": "Prefers temperatures between 21°C to 29°C",
+      "soil": "Well-drained, fertile soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, but not waterlogged",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when flowering begins",
+      "pests": "Common pests include aphids, flea beetles, and spider mites",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when fruits are glossy and firm, but still immature"
+    }
+  },
+  "garlic": {
+    "icon": "garlic.jpeg",
+    "image": "garlic.jpg",
+    "description": "Garlic is a pungent bulb used to add flavor to a wide variety of dishes.",
+    "planting": {
+      "time": "Late autumn to early winter",
+      "depth": "3-5 cm deep",
+      "spacing": "10-15 cm apart in rows",
+      "temperature": "Prefers cooler temperatures during growth, but can tolerate a wide range",
+      "soil": "Well-drained, fertile soil rich in organic matter",
+      "watering": "Keep soil consistently moist, but reduce watering as bulbs mature",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again in early spring",
+      "pests": "Common pests include onion flies, thrips, and nematodes",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when leaves begin to yellow and bulbs have formed cloves"
+    }
+  },
+  "green beans": {
+    "icon": "green_beans.jpeg",
+    "image": "green_beans.jpg",
+    "description": "Green beans, also known as string beans or snap beans, are tender, elongated pods eaten fresh or cooked.",
+    "planting": {
+      "time": "Late spring to early summer",
+      "depth": "2-3 cm deep",
+      "spacing": "5-10 cm apart in rows",
+      "temperature": "Prefers temperatures between 18°C to 24°C",
+      "soil": "Well-drained, fertile soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, especially during flowering and pod formation",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when vines begin to run",
+      "pests": "Common pests include aphids, bean beetles, and spider mites",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when pods are firm, crisp, and about 10-15 cm long"
+    }
+  },
+  "lettuce": {
+    "icon": "lettuce.jpeg",
+    "image": "lettuce.jpg",
+    "description": "Lettuce is a leafy green vegetable commonly used in salads and sandwiches.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "0.5-1 cm deep",
+      "spacing": "15-30 cm apart in rows",
+      "temperature": "Prefers temperatures between 10°C to 21°C",
+      "soil": "Moist, well-drained soil rich in organic matter",
+      "watering": "Keep soil consistently moist, especially during hot weather",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when plants are half-grown",
+      "pests": "Common pests include aphids, slugs, and snails",
+      "sunlight": "Partial shade",
+      "harvesting": "Harvest outer leaves when they reach desired size, typically 10-15 cm long"
+    }
+  },
+  "mushroom": {
+    "icon": "mushroom.jpeg",
+    "image": "mushroom.jpg",
+    "description": "Mushrooms are fungi that are cultivated for their distinctive flavor and texture.",
+    "planting": {
+      "time": "Year-round, indoors",
+      "depth": "Depends on mushroom variety (typically 1-2 cm deep)",
+      "spacing": "Depends on mushroom variety",
+      "temperature": "Depends on mushroom variety (typically cool, dark environment)",
+      "soil": "Substrate or growing medium specific to mushroom variety",
+      "watering": "Keep substrate consistently moist, but not waterlogged",
+      "fertilizing": "Depends on mushroom variety",
+      "pests": "Common pests include molds, bacteria, and insects (proper sanitation is key)",
+      "sunlight": "Mushrooms require darkness for growth",
+      "harvesting": "Harvest when mushrooms reach desired size, typically before caps fully open"
+    }
+  },
+  "potato": {
+    "icon": "potato.jpeg",
+    "image": "potato.jpg",
+    "description": "Potatoes are starchy tubers that are a staple food in many cuisines worldwide.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "10-15 cm deep",
+      "spacing": "30-45 cm apart in rows",
+      "temperature": "Prefers temperatures between 10°C to 20°C",
+      "soil": "Loose, well-drained soil rich in organic matter",
+      "watering": "Keep soil consistently moist, especially during tuber formation",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when plants begin to flower",
+      "pests": "Common pests include potato beetles, aphids, and potato tuber moths",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when foliage begins to yellow and die back"
+    }
+  },
+  "pumpkin": {
+    "icon": "pumpkin.jpeg",
+    "image": "pumpkin.jpg",
+    "description": "Pumpkin is a type of winter squash known for its sweet flavor and versatility in cooking.",
+    "planting": {
+      "time": "Late spring to early summer",
+      "depth": "2-3 cm deep",
+      "spacing": "60-90 cm apart in rows",
+      "temperature": "Prefers temperatures between 18°C to 24°C",
+      "soil": "Rich, well-drained soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, especially during fruit development",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when vines begin to run",
+      "pests": "Common pests include squash bugs, vine borers, and aphids",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when fruit has reached full color and rind is hard"
+    }
+  },
+  "radish": {
+    "icon": "radish.jpeg",
+    "image": "radish.jpg",
+    "description": "Radishes are crisp, peppery root vegetables commonly used in salads and garnishes.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "1-2 cm deep",
+      "spacing": "2.5-5 cm apart in rows",
+      "temperature": "Prefers temperatures between 10°C to 18°C",
+      "soil": "Loose, well-drained soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, especially during germination",
+      "fertilizing": "Fertilize with low nitrogen fertilizer at planting and again when roots are halfway grown",
+      "pests": "Common pests include flea beetles, aphids, and cabbage maggots",
+      "sunlight": "Full sun to partial shade",
+      "harvesting": "Harvest when roots reach desired size, typically 2-5 cm in diameter"
+    }
+  },
+  "red onion": {
+    "icon": "red_onion.jpeg",
+    "image": "red_onion.jpg",
+    "description": "Red onions are pungent bulb vegetables commonly used in cooking and salads.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "1-2 cm deep",
+      "spacing": "10-15 cm apart in rows",
+      "temperature": "Prefers temperatures between 10°C to 20°C",
+      "soil": "Loose, well-drained soil rich in organic matter",
+      "watering": "Keep soil consistently moist, especially during bulb formation",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when bulbs begin to form",
+      "pests": "Common pests include onion thrips, onion maggots, and nematodes",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when tops begin to yellow and fall over"
+    }
+  },
+  "spinach": {
+    "icon": "spinach.jpeg",
+    "image": "spinach.jpg",
+    "description": "Spinach is a leafy green vegetable rich in iron and other nutrients.",
+    "planting": {
+      "time": "Late winter to early spring; late summer to early autumn for fall crop",
+      "depth": "0.5-1 cm deep",
+      "spacing": "15-30 cm apart in rows",
+      "temperature": "Prefers cooler temperatures between 10°C to 21°C",
+      "soil": "Moist, well-drained soil rich in organic matter",
+      "watering": "Keep soil consistently moist, especially during hot weather",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when plants are half-grown",
+      "pests": "Common pests include aphids, leaf miners, and slugs",
+      "sunlight": "Partial shade",
+      "harvesting": "Harvest outer leaves when they reach desired size, typically 5-10 cm long"
+    }
+  },
+  "spring onion": {
+    "icon": "spring_onion.jpeg",
+    "image": "spring_onion.jpg",
+    "description": "Spring onions, also known as scallions or green onions, are mild-flavored onions harvested in the spring or early summer.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "1-2 cm deep",
+      "spacing": "2.5-5 cm apart in rows",
+      "temperature": "Prefers temperatures between 10°C to 20°C",
+      "soil": "Loose, well-drained soil rich in organic matter",
+      "watering": "Keep soil consistently moist, especially during bulb formation",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when bulbs begin to form",
+      "pests": "Common pests include onion thrips, onion maggots, and nematodes",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when tops reach desired height, typically 15-30 cm tall"
+    }
+  },
+  "tomato": {
+    "icon": "tomato.jpeg",
+    "image": "tomato.jpg",
+    "description": "Tomatoes are juicy, flavorful fruits commonly used in cooking and salads.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "0.5-1 cm deep",
+      "spacing": "45-60 cm apart in rows",
+      "temperature": "Prefers temperatures between 21°C to 29°C",
+      "soil": "Well-drained, fertile soil rich in organic matter",
+      "watering": "Keep soil consistently moist, but not waterlogged",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when flowering begins",
+      "pests": "Common pests include aphids, whiteflies, and tomato hornworms",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when fruits are firm, fully colored, and easily detach from the vine"
+    }
+  },
+  "white onion": {
+    "icon": "white_onion.jpeg",
+    "image": "white_onion.jpg",
+    "description": "White onions are mild-flavored onions commonly used in a wide variety of culinary dishes.",
+    "planting": {
+      "time": "Late winter to early spring",
+      "depth": "1-2 cm deep",
+      "spacing": "10-15 cm apart in rows",
+      "temperature": "Prefers temperatures between 10°C to 20°C",
+      "soil": "Loose, well-drained soil rich in organic matter",
+      "watering": "Keep soil consistently moist, especially during bulb formation",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when bulbs begin to form",
+      "pests": "Common pests include onion thrips, onion maggots, and nematodes",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when tops begin to yellow and fall over"
+    }
+  },
+  "zucchini": {
+    "icon": "zucchini.jpeg",
+    "image": "zucchini.jpg",
+    "description": "Zucchini is a type of summer squash with tender, edible skin and creamy white flesh.",
+    "planting": {
+      "time": "Late spring to early summer",
+      "depth": "2-3 cm deep",
+      "spacing": "60-90 cm apart in rows",
+      "temperature": "Prefers temperatures between 18°C to 24°C",
+      "soil": "Rich, well-drained soil with plenty of organic matter",
+      "watering": "Keep soil consistently moist, especially during fruit development",
+      "fertilizing": "Fertilize with balanced fertilizer at planting and again when vines begin to run",
+      "pests": "Common pests include squash bugs, vine borers, and aphids",
+      "sunlight": "Full sun",
+      "harvesting": "Harvest when fruits are small to medium-sized and tender"
+    }
+  }
+}

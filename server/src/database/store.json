@@ -1,0 +1,224 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Avocado",
+      "image": "src/assets/specials/avocado.jpg",
+      "description": "Creamy and versatile, avocados are a delicious addition to any meal. Packed with healthy fats and nutrients, they're perfect for salads, sandwiches, or simply enjoyed on their own.",
+      "price": 2.69,
+      "onSpecial": true,
+      "size": 1,
+      "unit": "each"
+    },
+    {
+      "id": 2,
+      "name": "Blueberries",
+      "image": "src/assets/specials/blueberry.jpg",
+      "description": "Sweet and bursting with antioxidants, blueberries are a delightful treat. Add them to your morning cereal, yogurt, or blend them into a refreshing smoothie.",
+      "price": 3.39,
+      "onSpecial": true,
+      "size": 100,
+      "unit": "g"
+    },
+    {
+      "id": 3,
+      "name": "Eggplant",
+      "image": "src/assets/specials/eggplant.jpg",
+      "description": "Versatile and hearty, eggplants are a staple in Mediterranean cuisine. Whether grilled, roasted, or sautéed, they add depth and flavor to a variety of dishes.",
+      "price": 1.99,
+      "onSpecial": false,
+      "size": 1,
+      "unit": "each"
+    },
+    {
+      "id": 4,
+      "name": "Carrot",
+      "image": "src/assets/specials/carrot.jpg",
+      "description": "Crunchy and vibrant, carrots are loaded with beta-carotene and essential nutrients. Enjoy them raw as a snack, or incorporate them into soups, stews, and salads.",
+      "price": 0.99,
+      "onSpecial": false,
+      "size": 100,
+      "unit": "g"
+    },
+    {
+      "id": 5,
+      "name": "Rosemary",
+      "image": "src/assets/specials/rosemary.jpg",
+      "description": "Fragrant and aromatic, rosemary adds a burst of flavor to any dish. Whether used fresh or dried, it pairs perfectly with roasted meats, potatoes, and vegetables.",
+      "price": 1.29,
+      "onSpecial": false,
+      "size": 25,
+      "unit": "g"
+    },
+    {
+      "id": 6,
+      "name": "Kiwi",
+      "image": "src/assets/specials/kiwi.jpg",
+      "description": "Juicy and tangy, kiwis are a refreshing tropical fruit rich in vitamin C and antioxidants. Enjoy them sliced on their own, or add them to fruit salads and desserts.",
+      "price": 1.79,
+      "onSpecial": false,
+      "size": 1,
+      "unit": "each"
+    },
+    {
+      "id": 7,
+      "name": "Eggs",
+      "image": "src/assets/specials/eggs.jpg",
+      "description": "Versatile and nutritious, eggs are a kitchen staple. Whether scrambled, fried, or boiled, they're a great source of protein and essential nutrients.",
+      "price": 4.49,
+      "onSpecial": true,
+      "size": 12,
+      "unit": "each"
+    },
+    {
+      "id": 8,
+      "name": "Leek",
+      "image": "src/assets/specials/leek.jpg",
+      "description": "Mild and flavorful, leeks add a unique twist to various dishes. Use them in soups, quiches, or sauté them as a delicious side dish.",
+      "price": 1.49,
+      "onSpecial": false,
+      "size": 1,
+      "unit": "each"
+    },
+    {
+      "id": 9,
+      "name": "Pesto",
+      "image": "src/assets/specials/pesto.jpg",
+      "description": "Bursting with fresh herbs, garlic, nuts, and cheese, pesto is a vibrant sauce perfect for pasta, sandwiches, or as a flavorful dip. ",
+      "price": 5.99,
+      "onSpecial": false,
+      "size": 200,
+      "unit": "g"
+    },
+    {
+      "id": 10,
+      "name": "Capsicum",
+      "image": "src/assets/specials/capsicum-bunch.jpg",
+      "description": "Colorful and crisp, capsicums are a versatile vegetable packed with vitamin C and antioxidants. Enjoy them raw in salads, roasted in the oven, or stuffed with your favorite fillings.",
+      "price": 3.99,
+      "onSpecial": false,
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "id": 11,
+      "name": "Mango",
+      "image": "src/assets/specials/mango.jpg",
+      "description": "Juicy and tropical, mangoes are a delightful fruit perfect for snacking, smoothies, or adding a burst of flavor to salads and salsas.",
+      "price": 2.49,
+      "onSpecial": false,
+      "size": 1,
+      "unit": "each"
+    },
+    {
+      "id": 12,
+      "name": "Orange Juice",
+      "image": "src/assets/specials/orange-juice.jpg",
+      "description": "Freshly squeezed and full of vitamin C, orange juice is a refreshing way to start your day. Enjoy it on its own or use it as a base for cocktails and smoothies.",
+      "price": 3.99,
+      "onSpecial": false,
+      "size": 1,
+      "unit": "L"
+    },
+    {
+      "id": 13,
+      "name": "Broccoli",
+      "image": "src/assets/specials/broccoli.jpg",
+      "description": "Nutrient-rich and versatile, broccoli is a powerhouse vegetable. Whether steamed, roasted, or stir-fried, it's a delicious addition to any meal.",
+      "price": 1.99,
+      "onSpecial": false,
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "id": 14,
+      "name": "Watermelon",
+      "image": "src/assets/specials/watermelon.jpg",
+      "description": "Juicy and refreshing, watermelon is a summertime favorite. Enjoy it sliced on its own, blended into smoothies, or added to fruit salads for a burst of sweetness.",
+      "price": 5.49,
+      "onSpecial": false,
+      "size": 1,
+      "unit": "kg"
+    },
+    {
+      "id": 15,
+      "name": "Strawberry",
+      "image": "src/assets/specials/strawberry.jpg",
+      "description": "Sweet and succulent, strawberries are a classic favorite. Enjoy them fresh as a snack, sliced on top of cereal, or blended into delicious smoothies and desserts.",
+      "price": 5.99,
+      "onSpecial": true,
+      "size": 250,
+      "unit": "g"
+    },
+    {
+      "id": 16,
+      "name": "Garlic",
+      "image": "src/assets/specials/garlic.jpg",
+      "description": "Aromatic and flavorful, garlic adds depth and complexity to a wide range of dishes. Whether minced, sliced, or roasted, it's a kitchen essential for any home cook.",
+      "price": 1.19,
+      "onSpecial": false,
+      "size": 100,
+      "unit": "g"
+    },
+    {
+      "id": 17,
+      "name": "Honey",
+      "image": "src/assets/specials/honey.jpg",
+      "description": "Sweet and golden, honey is a natural sweetener with numerous health benefits. Drizzle it over yogurt, toast, or use it as a glaze for meats and vegetables.",
+      "price": 7.99,
+      "onSpecial": false,
+      "size": 500,
+      "unit": "g"
+    },
+    {
+      "id": 18,
+      "name": "Hazelnut",
+      "image": "src/assets/specials/hazelnut.jpg",
+      "description": "Rich and nutty, hazelnuts add a delightful crunch to both sweet and savory dishes. Enjoy them roasted and chopped in salads, baked goods, or ground into creamy nut butter.",
+      "price": 8.99,
+      "onSpecial": false,
+      "size": 200,
+      "unit": "g"
+    },
+    {
+      "id": 19,
+      "name": "Tomato",
+      "image": "src/assets/specials/tomato.jpg",
+      "description": "Juicy and versatile, tomatoes are a kitchen staple. Whether sliced in sandwiches, diced in salads, or cooked into sauces, they add vibrant flavor to countless dishes.",
+      "price": 1.29,
+      "onSpecial": false,
+      "size": 100,
+      "unit": "g"
+    },
+    {
+      "id": 20,
+      "name": "Pistachio",
+      "image": "src/assets/specials/pistachio.jpg",
+      "description": "Crunchy and slightly sweet, pistachios are a delicious and nutritious snack. Enjoy them on their own, or add them to salads, baked goods, or savory dishes for extra flavor and texture.",
+      "price": 9.99,
+      "onSpecial": true,
+      "size": 400,
+      "unit": "g"
+    },
+    {
+      "id": 21,
+      "name": "Ginger",
+      "image": "src/assets/specials/ginger.jpg",
+      "description": "Spicy and aromatic, ginger adds warmth and depth to both sweet and savory dishes. Whether grated into stir-fries, brewed into tea, or used in baking, it's a versatile ingredient with numerous health benefits.",
+      "price": 1.99,
+      "onSpecial": false,
+      "size": 100,
+      "unit": "g"
+    },
+    {
+      "id": 22,
+      "name": "Coconut",
+      "image": "src/assets/specials/coconut.jpg",
+      "description": "Rich and tropical, coconut adds a unique flavor and texture to a variety of dishes. Whether shredded in desserts, blended into curries, or enjoyed fresh, it's a versatile ingredient with endless culinary possibilities.",
+      "price": 3.99,
+      "onSpecial": false,
+      "size": 1,
+      "unit": "each"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+:root {
+  --text: #111d15;
+  --background: #ebf5ef;
+  --primary: #55b978;
+  --secondary: #cde9d7;
+  --accent: #0fd755;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+}
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+h4 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+h5 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Supreme", sans-serif;
+  font-weight: 500;
+}
+
+/* ADD THEMES TO BOOTSTRAP */
+
+.bg-text {
+  background-color: var(--text);
+}
+
+.bg-background {
+  background-color: var(--background);
+}
+
+.custom-bg-primary {
+  background-color: var(--primary);
+}
+
+.custom-bg-secondary {
+  background-color: var(--secondary);
+}
+
+.custom-bg-secondary2 {
+  background-color: #e0f2e7;
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+html,
+body {
+  background-color: var(--background);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Supreme", sans-serif;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/* nav bar */
+.cart2 {
+  display: none;
+}
+
+.login-signup {
+  gap: 1rem;
+}
+
+.user-profile-word {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .cart2 {
+    display: block;
+  }
+
+  .cart {
+    display: none;
+  }
+
+  .login {
+    background-color: transparent;
+  }
+
+  .signup {
+    background-color: transparent;
+  }
+
+  .login-signup {
+    gap: 0rem;
+  }
+
+  .user-email,
+  .user-profile {
+    display: none;
+  }
+
+  .user-profile-word {
+    display: block;
+  }
+}
+
+.cartButton {
+  all: unset;
+}
+
+#LandingPageShop {
+  text-decoration: none;
+  color: inherit;
+  padding: 6px 20px;
+  border-radius: 5px;
+}
+#LandingPageLearnMore {
+  text-decoration: none;
+  color: inherit;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+#LandingPageShop:hover,
+#LandingPageLearnMore:hover {
+  transform: translate(0, -2px);
+  transition: transform ease 0.2s;
+}
+
+.mh400 {
+  max-height: 400px;
+}
+
+.mh550 {
+  max-height: 550px;
+}
+
+.mw500 {
+  max-width: 500px;
+}
+
+.horizontal-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #cad4cf;
+  margin: 20px 0;
+}
+
+/* login */
+[data-bg-image="login"],
+[data-bg-image="signup"] {
+  background-size: cover;
+}
+
+[data-bg-image="login"] {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("login.jpg");
+}
+
+[data-bg-image="signup"] {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("signup.jpg");
+}
+
+#selectAnotherVeg {
+  text-decoration: none;
+  color: inherit;
+  padding: 6px 10px;
+  border-radius: 6px;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+.flexible-w {
+  width: min(100% - 3rem, 45ch);
+}
+
+.no-border-on-focus:focus {
+  outline: none;
+  box-shadow: none;
+  border: solid 1px var(--primary);
+}
