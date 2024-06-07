@@ -19,6 +19,7 @@ require("./src/routes/users.js")(express, app);
 require("./src/routes/product.routes.js")(express, app);
 require("./src/routes/cart.routes.js")(express, app);
 require("./src/routes/review.routes.js")(express, app);
+require("./src/routes/icon.routes.js")(express, app);
 
 const PORT = 3000;
 app.listen(PORT, () => {
