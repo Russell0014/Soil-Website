@@ -11,7 +11,7 @@ app.use(cors());
 db.sync({ logging: console.log });
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello World!" });
+  res.json({ message: "Express on Vercel" });
 });
 
 // routes
@@ -20,7 +20,7 @@ require("./src/routes/product.routes.js")(express, app);
 require("./src/routes/cart.routes.js")(express, app);
 require("./src/routes/review.routes.js")(express, app);
 
-const PORT = 4000;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
