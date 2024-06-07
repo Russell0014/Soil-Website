@@ -95,7 +95,7 @@ async function seedUsers() {
     },
     {
       username: "username",
-      email: "email@email.com",
+      email: "email2@email.com",
       hash: "hash",
     },
     {
