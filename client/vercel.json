@@ -1,17 +1,13 @@
 {
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/index.html" }
-  ],
-  "headers": [
+    { "src": "/.*", "dest": "/index.html" },
     {
-      "source": "/.*",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex"
-        }
-      ]
+      "src": "/.*",
+      "headers": {
+        "Content-Security-Policy": "script-src 'self'; style-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'; default-src 'self'; img-src 'self' data:; object-src 'none'; worker-src 'self'; child-src 'self'; font-src 'self'; connect-src 'self'; manifest-src 'self'; media-src 'self'; prefetch-src 'self'; frame-src 'self';",
+        "X-Robots-Tag": "noindex"
+      }
     }
   ]
 }
