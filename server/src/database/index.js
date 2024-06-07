@@ -98,6 +98,11 @@ async function seedUsers() {
       email: "email@email.com",
       hash: "hash",
     },
+    {
+      username: "username2",
+      email: "email@email.com",
+      hash: "!Password123",
+    }
   ];
 
   // simple solution for existing users
