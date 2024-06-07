@@ -1,6 +1,6 @@
-const PORT = 4000;
+const PORT = 3000;
 
 export default {
   PORT: PORT,
-  HOST: `http://localhost:${PORT}`,
+  HOST: `https://soil-website-backend.vercel.app/:${PORT}`,
 };
