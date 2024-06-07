@@ -10,7 +10,11 @@ const db = {
 };
 
 // init db
-db.sequelize = new Sequelize(process.env.URI);
+db.sequelize = new Sequelize(process.env.URI, {
+  dialect: "mysql",
+  dialectModule: require("mysql2"),
+
+});
 
 // init models
 db.users = require("./models/user.js")(db.sequelize, DataTypes);
