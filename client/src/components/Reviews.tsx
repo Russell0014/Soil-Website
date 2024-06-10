@@ -2,7 +2,7 @@ import StarRating from "./StarRating";
 import { getProductReviews, Review, deleteReview } from "../service/review";
 import { useEffect, useState } from "react";
 import { AuthConsumer } from "./AuthContext";
-import { Card, Button, Modal } from "react-bootstrap";
+import { Card, Button, Modal, Spinner } from "react-bootstrap";
 
 interface ReviewsProps {
   productId: number;
@@ -35,6 +35,8 @@ function Reviews({ productId, reload, handleUpdate }: ReviewsProps) {
   const [showModal, setShowModal] = useState(false);
   const [reloadAfterDelete, setReloadAfterDelete] = useState(false);
 
+  const [isLoading, setIsLoading] = useState(true);
+
   const handleButtonClick = () => {
     setShowModal(true);
   };
@@ -44,8 +46,10 @@ function Reviews({ productId, reload, handleUpdate }: ReviewsProps) {
   };
 
   useEffect(() => {
+    setIsLoading(true);
     getProductReviews(productId, undefined).then((reviews) => {
       setUserReviews(reviews);
+      setIsLoading(false);
     });
   }, [productId, reload, reloadAfterDelete]);
 
@@ -116,9 +120,17 @@ function Reviews({ productId, reload, handleUpdate }: ReviewsProps) {
 
   return (
     <div>
-      {userReviews.map((review) => (
-        <ReviewCards key={review.id} review={review} />
-      ))}
+      {isLoading ? (
+        <div className="text-center pt-5">
+          <Spinner animation="border" role="status"></Spinner>
+          <p>loading reviews</p>
+        </div>
+      ) : (
+        // Shows reviews if not loading
+        userReviews.map((review) => (
+          <ReviewCards key={review.id} review={review} />
+        ))
+      )}
     </div>
   );
 }
