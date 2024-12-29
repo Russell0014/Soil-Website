@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Card, Col, Row } from "react-bootstrap";
 
 const APP_ID = "7cb662b7";
-const APP_KEY = "2bd7c9f774add77409c236171010df5b";
+const APP_KEY = import.meta.env.VITE_APP_KEY;
 
 interface Recipe {
   image: string;
