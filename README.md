@@ -20,7 +20,7 @@ SOIL is a student-made website built with React. It's a place for users to learn
 1. Clone the repo.
 2. Create `server/.env` file containing
 
-3. Navigate into `s4018548-s4007180-a2/client` & `s4018548-s4007180-a2/server`
+3. Navigate into `/client` & `/server`
 4. Install dependencies, `npm i`
 5. Start the server, `npm start`
 
